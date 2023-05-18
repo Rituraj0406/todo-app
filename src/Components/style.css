@@ -1,0 +1,58 @@
+.card-container{
+    padding: 10px;
+}   
+
+.quote-container{
+    border-left: 8px solid #F7DF94;
+    padding-left: 40px;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.author-wrapper{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    transition: background-color 0.3s;
+    padding: 30px 50px;
+    justify-content: space-between;
+    width: 520px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.author-wrapper:hover{
+    background-color: #333333;
+}
+
+.author-wrapper:hover .author {
+    color: #F2F2F2; /* Text color of author on hover */
+}
+
+.author-wrapper:hover .genere {
+    color: #828282; /* Text color of genere on hover */
+} 
+
+
+.author-container{
+    padding: 5px;
+}
+
+.author{
+    font-size: 24px;
+    font-weight: 700;
+    color: #4F4F4F;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.genere{
+    font-size: 14px;
+    font-weight: 500;
+    color: #828282;
+    margin: 0;
+    text-align: start;
+}
